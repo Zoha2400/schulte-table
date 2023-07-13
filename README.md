@@ -11,3 +11,9 @@ The game keeps track of the player's time and displays it on the screen, allowin
 The GitHub repository contains all the necessary JavaScript code, HTML markup, and CSS styling to create a functional and visually appealing Schulte Table game. It can be easily downloaded, modified, and deployed on any web server or run locally in a web browser.
 
 By playing the Schulte Table game implemented in JavaScript, users can enhance their mental agility, improve focus and concentration, and have fun while challenging themselves to beat their previous records.
+
+![image_2023-07-13_22-03-23](https://github.com/Zoha2400/schulte-table/assets/76750755/81e4055e-58e6-4b6e-bdb3-9de59fe113bf)
+![image_2023-07-13_22-03-23 (2)](https://github.com/Zoha2400/schulte-table/assets/76750755/c18f92ba-52b5-4e7b-ab21-562b8a19eca9)
+![image_2023-07-13_22-03-23 (3)](https://github.com/Zoha2400/schulte-table/assets/76750755/294e8173-f921-45de-8d55-1a602177544d)
+
+
