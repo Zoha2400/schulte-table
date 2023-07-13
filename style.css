@@ -1,0 +1,155 @@
+.hide {
+  pointer-events: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #292929;
+  height: 100%;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
+}
+.head__panel {
+  background-color: #3d3d3d;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 200;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.head__panel .time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.game__zone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.game__zone .bg__display {
+  width: 510px;
+  height: 510px;
+  background-color: gray;
+  box-shadow: 0 10px 15px black;
+  margin: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.game__zone .bg__display .game__display {
+  width: 500px;
+  height: 500px;
+  background-color: gray;
+  display: flex;
+  flex-wrap: wrap;
+}
+.game__zone .bg__display .game__display .box {
+  width: 100px;
+  height: 100px;
+  background-color: #646464;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 55px;
+  font-weight: 600;
+  color: white;
+}
+.game__zone .bg__display .game__display .box:hover {
+  background-color: #5a5a5a;
+  transition: 0.2s;
+}
+.game__zone .bg__display .game__display .box:not(:hover) {
+  transition: 0.2s;
+}
+.game__zone .bg__display .game__display .another {
+  background-color: gray !important;
+}
+.game__zone .bg__display .game__display .another:hover {
+  background-color: #797979 !important;
+  transition: 0.2s;
+}
+.game__zone .bg__display .game__display .another:not(:hover) {
+  transition: 0.2s;
+}
+.game__zone .bg__display .start__ready {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 500px;
+  height: 500px;
+  background-color: rgba(0, 0, 0, 0.644);
+  backdrop-filter: blur(4px);
+  z-index: 2;
+  margin: 5px;
+  display: none;
+}
+.footer__panel {
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 200;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.footer__panel .start button {
+  border: none;
+  outline: none;
+  width: 200px;
+  height: 40px;
+  background-color: #ffff71;
+  color: black;
+  cursor: pointer;
+  border-radius: 30px ;
+  font-size: 22px;
+  font-weight: 100;
+}
+.footer__panel .start button:hover {
+  background-color: #ffff91;
+  box-shadow: 0 10px 15px #000000;
+  transition: 0.5s;
+}
+.footer__panel .start button:not(:hover) {
+  transition: 0.5s;
+}
+.footer__panel .end button {
+  border: none;
+  outline: none;
+  width: 200px;
+  height: 40px;
+  background-color: #f83845;
+  color: white;
+  cursor: pointer;
+  margin-top: 15px;
+  border-radius: 30px ;
+  font-size: 22px;
+  font-weight: 100;
+}
+.footer__panel .end button:hover {
+  background-color: #f04b56;
+  box-shadow: 0 10px 15px #000000;
+  transition: 0.5s;
+}
+.footer__panel .end button:not(:hover) {
+  transition: 0.5s;
+}
+.footer__panel .rules {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  margin-top: 25px;
+}
+.footer__panel .rules a {
+  color: #adadad;
+}
